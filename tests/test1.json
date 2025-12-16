@@ -15,7 +15,7 @@
         },
         {
             "question": "파이썬 디버깅의 pdb 명령어(자주 쓰이는 것 위주)",
-            "answer": "h, help: pdb 명령어 리스트 출력\nw, where: 코드 trace 출력\nl, list: 소스코드 출력 (현재 위치 포함)\nb, break 라인번호/함수명: 해당 라인/함수 첫 실행 라인에 breakpoint 지정\ncl, clear 라인번호: 라인번호의 breakpoint 삭제 (라인번호 없으면 모든 breakpoint 삭제)\nc, continue: 다음 breakpoint까지 실행\ns, step: 다음 단계 (함수 내부로)로 진행\nn, next: 다음 단계 (문장) 수행\nr, return: 현 함수의 return 전까지 수행\np 변수명, print(변수명): 변수 값 출력\n!변수명 = 값: 변수 값을 변경q, quit: 디버거 종료"
+            "answer": "h, help: pdb 명령어 리스트 출력\nw, where: 현재 실행 지점까지의 코드 콜스택에 대한 trace를 출력\nl, list: 소스코드 출력 (현재 실행 코드 포함)\nb, break 라인번호/함수명: 해당 라인/함수 첫 실행 라인에 breakpoint 지정\ncl, clear 라인번호: 라인번호의 breakpoint 삭제 (라인번호 없으면 모든 breakpoint 삭제)\nc, continue: 다음 breakpoint까지 실행\ns, step: 다음 코드 한줄 실행 (함수 호출시 함수 내부로 진입)\nn, next: 다음 코드 한줄 실행 (함수 호출시 함수 실행 결과만 받고 넘어감)\nr, return: 현 함수의 return 전까지 수행\np 변수명, print(변수명): 변수 값 출력\n!변수명 = 값: 변수 값을 변경q, quit: 디버거 종료"
         },
         {
             "question": "클래스와 객체의 속성 차이",
